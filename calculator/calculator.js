@@ -42,7 +42,17 @@ class Calculation extends Calculator {
    }
 
    operator(evt,operator) {
+        console.log(operator)
+        if(calArea.value!="") {
+            let prevValue = calArea.value;
+            let prevOperator;
+            switch(operator) {
+                case "pls":
+                    prevOperator = '+'; 
+                break;
+            }
 
+        }
    }
 
 
