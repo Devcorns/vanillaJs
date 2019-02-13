@@ -1,0 +1,36 @@
+.mb-20 {
+    margin-bottom:20px;
+}
+
+.course-thumb {
+    border-top-left-radius:50px;
+    border-bottom-right-radius: 50px;
+    overflow: hidden; 
+}
+
+.navigation ul {
+    list-style: none;
+    display: block;
+
+}
+.navigation ul li{
+    display:inline-block;
+    padding:0px 15px 15px 15px;
+}
+.navigation ul li a {
+    font-weight: 700px;
+    font-size:18px;
+    color:#fff;
+}
+
+.footer-section .footer-top {
+    padding-top:45px;
+    padding-bottom:30px;
+}
+
+.footer-section {
+    background-position:center 0;
+}
+.service-item .service-icon{
+    width:70px;
+}
