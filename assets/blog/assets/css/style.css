@@ -1,0 +1,87 @@
+body{
+    background:#f4f4f433;
+    font-family: 'Lato', sans-serif;
+}
+header {
+    min-height:300px;
+    display:table;
+    width:100%;
+    padding:20px;
+    background:#ddd;
+    background-image: url(../img/header.webp);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+
+}
+
+header h1 {
+    vertical-align: middle;
+    height: 100%;
+    display: table-cell;
+    text-align: center;
+    color: #fff;
+    background: #00000026;
+    font-size:48px;
+    
+}
+
+
+.space-btween {
+    width:100%;
+    margin:20px 0;
+}
+
+/* header:before{
+    position: absolute;
+    content:'';
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    
+    z-index: 1;
+} */
+
+main {
+    max-width:1200px;
+    padding:100px 20px;
+    margin:0 auto;
+}
+.sub-title{
+    margin-bottom:50px;
+}
+p.desc{
+    font-size: 24px;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 20px;
+    line-height: 48px;
+    letter-spacing: 1.5px;
+}
+
+p.desc.example-desc{
+   font-size:15px; 
+   line-height:40px;
+   font-weight: 400;
+   margin-bottom:10px;
+}
+
+.text-blue{
+    color: #4c84d9;
+}
+
+.example {
+    border:1px solid #ddd;
+    padding:20px;
+    border-radius: 10px;
+    background:#f6f6f6;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.example code .second-tap {
+    padding-left:100px;
+}
+.example code .first-tap {
+    padding-left:50px;
+}
